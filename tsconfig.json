@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/styles/*": ["styles/*"],
+      "@/public/*": ["public/*"],
+      "@/pages/*": ["pages/*"],
+      "@/atoms/*": ["components/atoms/*"],
+      "@/molecules/*": ["components/molecules/*"],
+      "@/organisms/*": ["components/organisms/*"],
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
