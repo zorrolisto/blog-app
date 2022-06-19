@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Layout from "@/molecules/layout/Layout";
+import Layout from "@/molecules/layout/layout";
 
 const Header: FunctionComponent = () => {
   return (
-    <Layout>
+    <Layout home={false}>
       <Head>
         <title>First Post</title>
       </Head>
